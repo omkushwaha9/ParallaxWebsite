@@ -60,27 +60,31 @@ header {
     position: absolute;
     font-size: 5em;
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2) ;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
-.Parallax img{
+
+.Parallax img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     pointer-events: none;
 }
-.sec{
+
+.sec {
     position: relative;
     background: #003329;
-    padding:100px;
+    padding: 100px;
 }
-.sec h2{
+
+.sec h2 {
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
 }
-.sec p{
+
+.sec p {
     font-size: 1em;
     color: #fff;
-   font-weight: 300;
+    font-weight: 300;
 }
