@@ -6,27 +6,31 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background: #f9f9f9;
     min-height: 100vh;
     overflow-x: hidden;
 }
-header{
+
+header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    padding:30px 100px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-.logo{
+
+.logo {
     font-size: 2em;
     color: #359381;
     pointer-events: none;
 }
+
 .navigation a {
     text-decoration: none;
     color: #359381;
@@ -35,21 +39,31 @@ header{
     margin: 0 10px;
     font-weight: 600;
 }
+
 .navigation a:hover,
 .navigation a.active {
     background: #359381;
     color: #f9f9f9;
 
 }
-.Parallax{
+
+.Parallax {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-#text{
+
+#text {
     position: absolute;
     font-size: 5em;
     color: #333;
+}
+.Parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
 }
